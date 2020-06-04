@@ -7,7 +7,7 @@ Put the .zip in `~/.minecraft/saves/name-of-world/datapacks`
 
 ### *0.0.2 (06/02/20)*
 ----------------------
-- **Due to a bug in Snapshot 20w22a, datapacks are not reloaded correctly when a world is opened. You will need to manually run `/reload` after opening your world to make the datapack run.**
+- **Due to a bug in Snapshot 20w22a, datapacks are not reloaded correctly when a world is opened. You will need to manually run `/reload` after opening your world to make the datapack run. (This bug is fixed as of 1.16 pre1)**
 - Fixed some misnamed tags preventing the datapack from loading.
 - Added startup message.
 - Added a few screenshots.
