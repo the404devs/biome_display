@@ -5,6 +5,10 @@ Works across all dimensions, and supports all biomes as of 1.16.
 
 Put the .zip in `~/.minecraft/saves/name-of-world/datapacks`
 
+### *0.0.4 (08/12/20)*
+----------------------
+- Pack format 6 (1.16.2+)
+
 ### *0.0.3 (06/29/20)*
 ----------------------
 - Added support for multiplayer servers.
