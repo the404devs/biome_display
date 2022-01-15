@@ -1,11 +1,14 @@
 # biome_display
 
 Displays the name of the biome the player is currently in on the HUD.
-Works across all dimensions, and supports all biomes as of 1.16.
+Works across all dimensions, and supports all biomes as of 1.18.
 
 Put the .zip in `~/.minecraft/saves/name-of-world/datapacks`
 
-**Needs to be reworked for 1.17, I think**
+### *1.0.0 (01/15/2022)*
+------------------------
+- Major rework, since it hasn't worked since 1.17.
+- Now suports 1.18.1 and all the new biomes.
 
 ### *0.0.4 (08/12/2020)*
 ------------------------

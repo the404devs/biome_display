@@ -1,0 +1,376 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Ocean,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "ocean"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Plains,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "plains"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Desert,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "desert"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:WindsweptHills,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "windswept_hills"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Forest,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "forest"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Taiga,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "taiga"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Swamp,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "swamp"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:River,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "river"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:NetherWastes,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "nether_wastes"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:TheEnd,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "the_end"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:FrozenOcean,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "frozen_ocean"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:FrozenRiver,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "frozen_river"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SnowyPlains,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_plains"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:MushroomFields,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "mushroom_fields"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Beach,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "beach"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Jungle,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "jungle"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SparseJungle,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "sparse_jungle"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:DeepOcean,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "deep_ocean"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:StonyShore,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "stony_shore"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SnowyBeach,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_beach"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:BirchForest,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "birch_forest"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:DarkForest,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "minecraft:dark_forest"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SnowyTaiga,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_taiga"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:OldGrowthPineTaiga,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "old_growth_pine_taiga"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:WindsweptForest,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "windswept_forest"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Savanna,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "savanna"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SavannaPlateau,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "savanna_plateau"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Badlands,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "badlands"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:WoodedBadlandsPlateau,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "wooded_badlands_plateau"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SmallEndIslands,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "small_end_islands"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:EndMidlands,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "end_midlands"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:EndHighlands,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "end_highlands"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:EndBarrens,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "end_barrens"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:WarmOcean,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "warm_ocean"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:LukewarmOcean,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "lukewarm_ocean"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:ColdOcean,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "cold_ocean"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:DeepLukewarmOcean,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "deep_lukewarm_ocean"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:DeepColdOcean,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "deep_cold_ocean"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:DeepFrozenOcean,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "deep_frozen_ocean"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:TheVoid,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "the_void"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SunflowerPlains,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "sunflower_plains"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:WindsweptGravellyHills,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "windswept_gravelly_hills"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:FlowerForest,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "flower_forest"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:IceSpikes,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "ice_spikes"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:OldGrowthBirchForest,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "old_growth_birch_forest"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:OldGrowthSpruceTaiga,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "old_growth_spruce_taiga"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:WindsweptSavanna,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "windswept_savanna"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:ErodedBadlands,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "eroded_badlands"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:BambooJungle,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "bamboo_jungle"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:WarpedForest,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "warped_forest"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:CrimsonForest,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "crimson_forest"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SoulSandValley,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "soul_sand_valley"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:BasaltDeltas,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "basalt_deltas"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:DripstoneCaves,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "dripstone_caves"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:LushCaves,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "lush_caves"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Meadow,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "meadow"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:Grove,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "grove"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:SnowySlopes,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "snowy_slopes"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:FrozenPeaks,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "frozen_peaks"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:JaggedPeaks,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "jagged_peaks"}}],
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [{"function": "minecraft:set_count","count": {"min": 1.0,"max": 1.0}},{"function": "minecraft:set_nbt","tag": "{Biome:StonyPeaks,bd:true}"}],
+          "conditions": [{"condition": "minecraft:location_check","predicate": {"biome": "stony_peaks"}}],
+          "name": "minecraft:sea_pickle"
+        }
+      ]
+    }
+  ]
+}
